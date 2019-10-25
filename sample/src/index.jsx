@@ -14,7 +14,6 @@ class Game extends React.Component {
   }
 
   getData() {
-    // create a new XMLHttpRequest
     var xhr = new XMLHttpRequest()
 
     // get a callback when the server responds
@@ -62,7 +61,7 @@ class Game extends React.Component {
           eachnews.title
         } < /h5> <
         p className = "card-text" > {
-          eachnews.desc
+          eachnews.body
         } < /p> <
         p className = "card-text" > < small className = "text-muted" > Last updated 3 mins ago < /small></p >
         <
